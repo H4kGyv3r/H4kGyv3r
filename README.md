@@ -89,7 +89,7 @@
 [![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/yourhandle)  
 [![HackTheBox](https://img.shields.io/badge/HackTheBox-9FEF00?style=for-the-badge&logo=hackthebox&logoColor=black)](https://app.hackthebox.com/profile/HTB-2A8DF9A28E)  
 [![TryHackMe](https://img.shields.io/badge/TryHackMe-212C42?style=for-the-badge&logo=tryhackme&logoColor=white)](https://tryhackme.com/p/5187069)  
-**Email:** your.email@example.com  
+
 
 ---
 
@@ -101,13 +101,3 @@
 ![GitHub Streak](https://streak-stats.demolab.com/?user=HakGyver&theme=radical&hide_border=true)
 
 
-
-**HackTheBox Rank:** HTB-RANK-PLACEHOLDER  
-**HackTheBox Points:** HTB-POINTS-PLACEHOLDER  
-
-**TryHackMe Level:** THM-LEVEL-PLACEHOLDER  
-**Rooms Completed:** THM-ROOMS-PLACEHOLDER  
-
-![CyberDefenders Badge](CYBERDEFENDERS-BADGE-URL)
-
-*Last updated: LAST-UPDATE-PLACEHOLDER*
