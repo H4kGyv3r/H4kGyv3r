@@ -99,3 +99,15 @@
 ---
 
 ![GitHub Streak](https://streak-stats.demolab.com/?user=HakGyver&theme=radical&hide_border=true)
+
+
+
+**HackTheBox Rank:** HTB-RANK-PLACEHOLDER  
+**HackTheBox Points:** HTB-POINTS-PLACEHOLDER  
+
+**TryHackMe Level:** THM-LEVEL-PLACEHOLDER  
+**Rooms Completed:** THM-ROOMS-PLACEHOLDER  
+
+![CyberDefenders Badge](CYBERDEFENDERS-BADGE-URL)
+
+*Last updated: LAST-UPDATE-PLACEHOLDER*
