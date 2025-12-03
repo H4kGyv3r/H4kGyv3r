@@ -1,29 +1,35 @@
-name: Auto Update README
+name: 🔄 Update README
 
 on:
   schedule:
-    - cron: "0 */6 * * *"    # Runs every 6 hours
-  workflow_dispatch:          # Lets you run it manually
+    - cron: "0 */6 * * *"  # every 6 hours
+  workflow_dispatch: {}  # manual trigger
 
 jobs:
-  update:
+  update-readme:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write         # Needed to commit to README
 
     steps:
       - name: Checkout repo
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
-      - name: Set up Python
+      - name: Setup Python
         uses: actions/setup-python@v4
         with:
-          python-version: 3.10
+          python-version: '3.10'
 
-      - name: Run README update script
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Update README
+        env:
+          HTB_API_TOKEN: ${{ secrets.HTB_API_TOKEN }}
+          THM_API_KEY: ${{ secrets.THM_API_KEY }}
+          CYBERDEFENDERS_ID: ${{ secrets.CYBERDEFENDERS_ID }}
         run: python scripts/update_readme.py
 
-      - name: Commit changes
+      - name: Commit & push changes
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_message: "🔄 Auto-update README"
+          commit_message: "🔄 Auto-update README with live stats"
+          branch: main
